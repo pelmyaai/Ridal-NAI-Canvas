@@ -244,3 +244,25 @@ body {
     .hero-image:hover { transform: none; }
     .cta-group { flex-direction: column; }
 }
+
+@media (max-width: 600px) {
+    .nav-content {
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px 16px;
+    }
+    .navbar { padding: 10px 0; }
+    .hero { margin-top: 120px; padding: 20px 16px; }
+    .headline { font-size: 2rem; }
+    .subtext { font-size: 1rem; }
+    
+    /* Make the 3D mockup responsive on small phones */
+    .mockup-body { height: 250px; }
+    .mockup-sidebar { display: none; /* Hide sidebar on small screens to give canvas more room */ }
+    .mock-image { width: 90%; height: 90%; }
+    
+    .feature-card { padding: 30px 20px; }
+    .warning-card { padding: 24px; }
+    .warning-title { font-size: 1.5rem; }
+    .warning-text { font-size: 1rem; }
+}
