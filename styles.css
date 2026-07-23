@@ -259,9 +259,21 @@ body {
     .subtext { font-size: 1rem; }
     
     /* Make the 3D mockup responsive on small phones */
-    .mockup-body { height: 250px; }
-    .mockup-sidebar { display: none; /* Hide sidebar on small screens to give canvas more room */ }
-    .mock-image { width: 90%; height: 90%; }
+    .mockup-body { height: 200px; }
+    .mockup-sidebar { 
+        display: flex; 
+        width: 35%; 
+        padding: 10px; 
+        gap: 8px; 
+    }
+    .mock-box { height: 15px; }
+    .mock-box.long { height: 40px; }
+    .mock-button { 
+        padding: 6px; 
+        font-size: 0.5rem; 
+        border-radius: 4px; 
+    }
+    .mock-image { width: 85%; height: 85%; }
     
     .feature-card { padding: 30px 20px; }
     .warning-card { padding: 24px; }
